@@ -49,7 +49,7 @@ export WEBPARAM="$SECLISTS/Discovery/Web-Content/burp-parameter-names.txt"
 # --- One-time setup ---
 if [[ $1 != no-repeat-flag && -z $NO_REPETITION ]]; then
   export NO_REPETITION=1
-  fastfetch
+  neofetch
 fi
 
 # Optional: Source Blesh if installed
